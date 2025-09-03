@@ -4,7 +4,7 @@ A practical, no-fluff collection of real-world Linux issues and how they were fi
 
 ---
 
-## Fixing KVM Bridge/NAT Internet Access Blocked by firewalld
+## Fixing KVM Bridge/NAT Internet Access Blocked by firewalld in Opensuse
 
 When using a KVM virtual machine with a bridged network, like the default NAT network virbr0, the host's firewall, firewalld, often blocks the VM's internet access. This happens because firewalld is not configured by default to allow traffic to be forwarded between your physical network and the virtual bridge.
 
